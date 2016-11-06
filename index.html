@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+    <title>Starting Angular</title>
+    <link href="rating.css" rel="stylesheet" />
+</head>
+<body ng-app='myApp' ng-controller="AppCtrl">
+    <h3 ng-bind="title"></h3>
+    <div my-stars rating="4" max="10"></div>
+    <script src="https://code.angularjs.org/1.5.6/angular.js"></script>
+    <script src="https://code.angularjs.org/1.5.6/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
